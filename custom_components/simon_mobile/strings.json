@@ -1,0 +1,58 @@
+{
+  "title": "SIMon mobile",
+  "config": {
+    "step": {
+      "user": {
+        "title": "SIMon mobile verbinden",
+        "description": "Melde dich mit deiner SIMon-Mobilfunknummer und deinem Kundenpasswort an.",
+        "data": {
+          "username": "Mobilfunknummer",
+          "password": "Passwort"
+        }
+      },
+      "reauth_confirm": {
+        "title": "SIMon mobile erneut authentifizieren",
+        "description": "Gib deine aktuellen SIMon-Zugangsdaten ein.",
+        "data": {
+          "username": "Mobilfunknummer",
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "account_locked": "Das SIMon-Konto ist gesperrt oder eine Anmeldung ist derzeit nicht möglich.",
+      "cannot_connect": "Verbindung zu SIMon mobile fehlgeschlagen.",
+      "invalid_auth": "Mobilfunknummer oder Passwort ist ungültig.",
+      "invalid_msisdn": "Gib eine gültige deutsche Mobilfunknummer ein.",
+      "mfa_required": "Für dieses Konto ist eine Bestätigung per mTAN erforderlich. MFA wird in dieser Version noch nicht unterstützt.",
+      "unknown": "Unerwarteter Fehler."
+    },
+    "abort": {
+      "already_configured": "Dieses SIMon-Konto ist bereits eingerichtet.",
+      "reauth_successful": "SIMon mobile wurde erneut authentifiziert."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "data_total": {
+        "name": "Datenvolumen gesamt"
+      },
+      "data_used": {
+        "name": "Datenvolumen verbraucht"
+      },
+      "data_remaining": {
+        "name": "Datenvolumen verbleibend"
+      },
+      "data_used_percent": {
+        "name": "Datenverbrauch"
+      },
+      "next_expiration": {
+        "name": "Nächster Ablauf"
+      },
+      "sms_remaining": {
+        "name": "SMS verbleibend"
+      }
+    }
+  }
+}
+

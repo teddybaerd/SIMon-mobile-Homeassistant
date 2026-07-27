@@ -1,0 +1,58 @@
+{
+  "title": "SIMon mobile",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect SIMon mobile",
+        "description": "Sign in with your SIMon mobile number and customer password.",
+        "data": {
+          "username": "Mobile number",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate SIMon mobile",
+        "description": "Enter your current SIMon credentials.",
+        "data": {
+          "username": "Mobile number",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "account_locked": "The SIMon account is locked or login is currently unavailable.",
+      "cannot_connect": "Could not connect to SIMon mobile.",
+      "invalid_auth": "The mobile number or password is invalid.",
+      "invalid_msisdn": "Enter a valid German mobile number.",
+      "mfa_required": "This account requires mTAN confirmation. MFA is not supported by this version yet.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This SIMon account is already configured.",
+      "reauth_successful": "SIMon mobile was reauthenticated successfully."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "data_total": {
+        "name": "Total data allowance"
+      },
+      "data_used": {
+        "name": "Data used"
+      },
+      "data_remaining": {
+        "name": "Data remaining"
+      },
+      "data_used_percent": {
+        "name": "Data usage"
+      },
+      "next_expiration": {
+        "name": "Next expiration"
+      },
+      "sms_remaining": {
+        "name": "SMS remaining"
+      }
+    }
+  }
+}
+
